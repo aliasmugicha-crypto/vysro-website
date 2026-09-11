@@ -95,7 +95,7 @@ The homepage should tell a coherent story in this order:
 1. **Hero / institutional identity**
    - clear VYSRO statement
    - short explanatory copy
-   - CTA: Explore Our Work / Systems
+   - CTA: Explore Systems & Solutions
    - CTA: Join Our Expert Pool
    - use the real approved VYSRO logo exactly as supplied; do not redesign or substitute it
 
@@ -137,7 +137,7 @@ Public systems must be described as VYSRO capabilities and demonstrators, not as
 ### Initial solution set
 
 #### Ready-Mix / Concrete Operations System
-Potential public demonstration modules:
+Public demonstration modules:
 - order and production status
 - batching / production control
 - dispatch and delivery
@@ -149,7 +149,7 @@ Potential public demonstration modules:
 - management KPI dashboard
 
 #### Precast Production System
-Potential modules:
+Public demonstration modules:
 - production planning
 - mould / casting cycle tracking
 - curing / release controls
@@ -157,7 +157,7 @@ Potential modules:
 - inventory and delivery status
 
 #### ISO Readiness System
-Potential modules:
+Public demonstration modules:
 - process register
 - SOP status
 - evidence completeness
@@ -167,7 +167,7 @@ Potential modules:
 - readiness score/dashboard
 
 #### Field Data & MEL System
-Potential modules:
+Public demonstration modules:
 - Kobo/ODK collection
 - submission monitoring
 - validation
@@ -234,7 +234,7 @@ The page should answer:
 
 CVs and personal records must **never be stored in the public GitHub repository**.
 
-For v0.1, expert form handling may use a secure Netlify-compatible intake mechanism or another approved secure form/document-storage path. File-upload security and privacy configuration must be verified before public launch.
+For v0.1, the expert intake will use **Netlify Forms with a CV file-upload field**, subject to verification of Netlify's current upload/security limits during implementation. Form submissions must remain outside the public repository, and submission notifications must be configured to a designated VYSRO inbox. The public form must include explicit consent/privacy wording before submission.
 
 ## 9. Privacy, confidentiality and claims governance
 
@@ -301,6 +301,7 @@ For MVP v0.1:
 - minimal vanilla JavaScript
 - no frontend framework unless a concrete requirement emerges
 - Netlify deployment from GitHub
+- Netlify Forms for expert intake
 - no production KOSH/VERA backend in this release
 - no authentication/account system in this release
 - no confidential database in GitHub
@@ -315,7 +316,7 @@ A first-time visitor on an Android phone should be able to:
 2. see credible quantitative and project evidence without inflated claims;
 3. understand that standards, engineering, research and systems belong to one coherent institution;
 4. view concrete demonstrations of VYSRO systems without client confidentiality breaches;
-5. register interest / join the expert pool through a clear, secure path;
+5. register / join the expert pool through a clear path including CV submission and consent;
 6. contact VYSRO for consulting/research/partnership work;
 7. navigate and read the site comfortably on a mobile connection;
 8. distinguish existing work from capabilities under development.
