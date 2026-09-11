@@ -1,6 +1,6 @@
 # VYSRO Logo Asset
 
-`vysro-logo.webp` is a proportionally resized, lossless web derivative of the locked master logo shown in the approved VYSRO Master Brand System Board.
+`vysro-logo.webp` (lossless WebP) is a pixel-faithful web derivative of the locked master logo shown in the approved VYSRO Master Brand System Board.
 
 Controls:
 
